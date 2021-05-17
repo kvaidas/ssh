@@ -1,4 +1,4 @@
-FROM ubuntu:rolling
+FROM ubuntu:groovy
 RUN \
     apt-get update && \
     apt-get install -y --no-install-recommends --no-install-suggests openssh-server && \
